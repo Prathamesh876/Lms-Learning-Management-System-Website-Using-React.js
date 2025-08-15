@@ -672,5 +672,446 @@ export const dummyCourses = [
         "updatedAt": "2025-01-02T06:56:13.208Z",
         "__v": 1,
         "courseThumbnail": "https://img.youtube.com/vi/WbV3zRgpw_E/maxresdefault.jpg"
-    }
+    },
+    {
+        "_id": "605c72efb3f1c2b1f8e4e1a2",
+        "courseTitle": "React for Beginners",
+        "courseDescription": "<h2>Build Interactive UI with React</h2><p>Learn React from scratch, understand components, state, props, and build dynamic web applications.</p><ul><li>Understand React components</li><li>Learn state and props</li><li>Build interactive applications</li></ul>",
+        "coursePrice": 59.99,
+        "isPublished": true,
+        "discount": 15,
+        "courseContent": [
+            {
+                "chapterId": "chapter1",
+                "chapterOrder": 1,
+                "chapterTitle": "Getting Started with React",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture1",
+                        "lectureTitle": "Introduction to React",
+                        "lectureDuration": 18,
+                        "lectureUrl": "https://youtu.be/dGcsHMXbSOA",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Setting Up React Environment",
+                        "lectureDuration": 22,
+                        "lectureUrl": "https://youtu.be/Ke90Tje7VS0",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+        ],
+        "educator": "675ac1512100b91a6d9b8b25",
+        "enrolledStudents": ["user_3aQlvXyr02B4Bq6hT0Gvaa5fT9V"],
+        "courseRatings": [
+            {"userId": "user_3aQlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 4, "_id": "6773e37360cb0ab974342315"}
+        ],
+        "createdAt": "2025-01-10T10:00:00.000Z",
+        "updatedAt": "2025-01-12T14:20:00.000Z",
+        "__v": 0,
+        "courseThumbnail": "https://img.youtube.com/vi/dGcsHMXbSOA/maxresdefault.jpg"
+    },
+
+    // 10th course
+    {
+        "_id": "605c72efb3f1c2b1f8e4e1a3",
+        "courseTitle": "Node.js Essentials",
+        "courseDescription": "<h2>Server-side Development with Node.js</h2><p>Learn the basics of Node.js, working with Express, and building APIs for web applications.</p><ul><li>Learn Node.js fundamentals</li><li>Build REST APIs</li><li>Understand server-side programming</li></ul>",
+        "coursePrice": 69.99,
+        "isPublished": true,
+        "discount": 10,
+        "courseContent": [
+            {
+                "chapterId": "chapter1",
+                "chapterOrder": 1,
+                "chapterTitle": "Introduction to Node.js",
+                "chapterContent": [
+                    {
+                        "lectureId": "lecture1",
+                        "lectureTitle": "What is Node.js?",
+                        "lectureDuration": 20,
+                        "lectureUrl": "https://youtu.be/TlB_eWDSMt4",
+                        "isPreviewFree": true,
+                        "lectureOrder": 1
+                    },
+                    {
+                        "lectureId": "lecture2",
+                        "lectureTitle": "Setting up Express Server",
+                        "lectureDuration": 25,
+                        "lectureUrl": "https://youtu.be/L72fhGm1tfE",
+                        "isPreviewFree": false,
+                        "lectureOrder": 2
+                    }
+                ]
+            }
+        ],
+        "educator": "675ac1512100b91a6d9b8b26",
+        "enrolledStudents": ["user_4aQlvXyr02B4Bq6hT0Gvaa5fT9V"],
+        "courseRatings": [
+            {"userId": "user_4aQlvXyr02B4Bq6hT0Gvaa5fT9V", "rating": 5, "_id": "6773e37360cb0ab974342316"}
+        ],
+        "createdAt": "2025-02-01T09:00:00.000Z",
+        "updatedAt": "2025-02-05T12:30:00.000Z",
+        "__v": 0,
+        "courseThumbnail": "https://img.youtube.com/vi/TlB_eWDSMt4/maxresdefault.jpg"
+    },
+    // 11th course
+{
+    "_id": "605c72efb3f1c2b1f8e4e1b0",
+    "courseTitle": "Python for Beginners",
+    "courseDescription": "<h2>Learn Python from Scratch</h2><p>Start programming with Python. Learn syntax, loops, functions, and basic projects.</p>",
+    "coursePrice": 49.99,
+    "isPublished": true,
+    "discount": 20,
+    "courseContent": [
+        {
+            "chapterId": "chapter1",
+            "chapterOrder": 1,
+            "chapterTitle": "Getting Started with Python",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture1",
+                    "lectureTitle": "Introduction to Python",
+                    "lectureDuration": 18,
+                    "lectureUrl": "https://youtu.be/_uQrJ0TkZlc",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture2",
+                    "lectureTitle": "Setting Up Python Environment",
+                    "lectureDuration": 22,
+                    "lectureUrl": "https://youtu.be/kqtD5dpn9C8",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        }
+    ],
+    "educator": "675ac1512100b91a6d9b8b27",
+    "enrolledStudents": [],
+    "courseRatings": [],
+    "createdAt": "2025-03-01T10:00:00.000Z",
+    "updatedAt": "2025-03-01T10:00:00.000Z",
+    "__v": 0,
+    "courseThumbnail": "https://img.youtube.com/vi/_uQrJ0TkZlc/maxresdefault.jpg"
+},
+
+// 12th course
+{
+    "_id": "605c72efb3f1c2b1f8e4e1b1",
+    "courseTitle": "React.js Fundamentals",
+    "courseDescription": "<h2>Learn React Basics</h2><p>Understand components, props, state, and build interactive UIs with React.</p>",
+    "coursePrice": 59.99,
+    "isPublished": true,
+    "discount": 15,
+    "courseContent": [
+        {
+            "chapterId": "chapter1",
+            "chapterOrder": 1,
+            "chapterTitle": "Introduction to React",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture1",
+                    "lectureTitle": "What is React?",
+                    "lectureDuration": 20,
+                    "lectureUrl": "https://youtu.be/Ke90Tje7VS0",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture2",
+                    "lectureTitle": "JSX and Components",
+                    "lectureDuration": 25,
+                    "lectureUrl": "https://youtu.be/Dorf8i6lCuk",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        }
+    ],
+    "educator": "675ac1512100b91a6d9b8b28",
+    "enrolledStudents": [],
+    "courseRatings": [],
+    "createdAt": "2025-03-02T10:00:00.000Z",
+    "updatedAt": "2025-03-02T10:00:00.000Z",
+    "__v": 0,
+    "courseThumbnail": "https://img.youtube.com/vi/Ke90Tje7VS0/maxresdefault.jpg"
+},
+
+// 13th course
+{
+    "_id": "605c72efb3f1c2b1f8e4e1b2",
+    "courseTitle": "Advanced JavaScript",
+    "courseDescription": "<h2>Deep Dive into JavaScript</h2><p>Learn closures, promises, async/await, and ES6+ features.</p>",
+    "coursePrice": 79.99,
+    "isPublished": true,
+    "discount": 15,
+    "courseContent": [
+        {
+            "chapterId": "chapter1",
+            "chapterOrder": 1,
+            "chapterTitle": "JavaScript Advanced Topics",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture1",
+                    "lectureTitle": "Closures and Scope",
+                    "lectureDuration": 18,
+                    "lectureUrl": "https://youtu.be/1JsJx1x35c0",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture2",
+                    "lectureTitle": "Promises and Async/Await",
+                    "lectureDuration": 22,
+                    "lectureUrl": "https://youtu.be/DHvZLI7Db8E",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        }
+    ],
+    "educator": "675ac1512100b91a6d9b8b29",
+    "enrolledStudents": [],
+    "courseRatings": [],
+    "createdAt": "2025-03-03T10:00:00.000Z",
+    "updatedAt": "2025-03-03T10:00:00.000Z",
+    "__v": 0,
+    "courseThumbnail": "https://img.youtube.com/vi/1JsJx1x35c0/maxresdefault.jpg"
+},
+
+// 14th course
+{
+    "_id": "605c72efb3f1c2b1f8e4e1b3",
+    "courseTitle": "Fullstack Web Development",
+    "courseDescription": "<h2>Build Fullstack Apps</h2><p>Combine React frontend and Node.js backend to make real-world projects.</p>",
+    "coursePrice": 99.99,
+    "isPublished": true,
+    "discount": 20,
+    "courseContent": [
+        {
+            "chapterId": "chapter1",
+            "chapterOrder": 1,
+            "chapterTitle": "React Frontend",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture1",
+                    "lectureTitle": "React Components and Props",
+                    "lectureDuration": 20,
+                    "lectureUrl": "https://youtu.be/dGcsHMXbSOA",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture2",
+                    "lectureTitle": "State Management and Hooks",
+                    "lectureDuration": 25,
+                    "lectureUrl": "https://youtu.be/IL82CzlaCys",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        },
+        {
+            "chapterId": "chapter2",
+            "chapterOrder": 2,
+            "chapterTitle": "Node.js Backend",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture3",
+                    "lectureTitle": "Express Routing and Middleware",
+                    "lectureDuration": 18,
+                    "lectureUrl": "https://youtu.be/Oe421EPjeBE",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture4",
+                    "lectureTitle": "Building REST APIs",
+                    "lectureDuration": 22,
+                    "lectureUrl": "https://youtu.be/L72fhGm1tfE",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        }
+    ],
+    "educator": "675ac1512100b91a6d9b8b30",
+    "enrolledStudents": [],
+    "courseRatings": [],
+    "createdAt": "2025-03-04T10:00:00.000Z",
+    "updatedAt": "2025-03-04T10:00:00.000Z",
+    "__v": 0,
+    "courseThumbnail": "https://img.youtube.com/vi/dGcsHMXbSOA/maxresdefault.jpg"
+},
+
+// 15th course
+{
+    "_id": "605c72efb3f1c2b1f8e4e1b4",
+    "courseTitle": "HTML & CSS Advanced",
+    "courseDescription": "<h2>Master HTML & CSS</h2><p>Learn Flexbox, Grid, responsive design, and modern UI techniques.</p>",
+    "coursePrice": 39.99,
+    "isPublished": true,
+    "discount": 25,
+    "courseContent": [
+        {
+            "chapterId": "chapter1",
+            "chapterOrder": 1,
+            "chapterTitle": "CSS Flexbox & Grid",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture1",
+                    "lectureTitle": "Flexbox Basics",
+                    "lectureDuration": 15,
+                    "lectureUrl": "https://youtu.be/JJSoEo8JSnc",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture2",
+                    "lectureTitle": "Grid Layouts",
+                    "lectureDuration": 18,
+                    "lectureUrl": "https://youtu.be/jV8B24rSN5o",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        },
+        {
+            "chapterId": "chapter2",
+            "chapterOrder": 2,
+            "chapterTitle": "Responsive Design",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture3",
+                    "lectureTitle": "Media Queries",
+                    "lectureDuration": 12,
+                    "lectureUrl": "https://youtu.be/srvUrASNj0s",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                }
+            ]
+        }
+    ],
+    "educator": "675ac1512100b91a6d9b8b31",
+    "enrolledStudents": [],
+    "courseRatings": [],
+    "createdAt": "2025-03-05T10:00:00.000Z",
+    "updatedAt": "2025-03-05T10:00:00.000Z",
+    "__v": 0,
+    "courseThumbnail": "https://img.youtube.com/vi/JJSoEo8JSnc/maxresdefault.jpg"
+},
+
+// 16th course
+{
+    "_id": "605c72efb3f1c2b1f8e4e1b5",
+    "courseTitle": "TypeScript Essentials",
+    "courseDescription": "<h2>Learn TypeScript</h2><p>Understand types, interfaces, generics, and use TypeScript with React.</p>",
+    "coursePrice": 59.99,
+    "isPublished": true,
+    "discount": 15,
+    "courseContent": [
+        {
+            "chapterId": "chapter1",
+            "chapterOrder": 1,
+            "chapterTitle": "TypeScript Basics",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture1",
+                    "lectureTitle": "Introduction to TypeScript",
+                    "lectureDuration": 16,
+                    "lectureUrl": "https://youtu.be/BwuLxPH8IDs",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture2",
+                    "lectureTitle": "Types and Interfaces",
+                    "lectureDuration": 20,
+                    "lectureUrl": "https://youtu.be/ahCwqrYpIuM",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        }
+    ],
+    "educator": "675ac1512100b91a6d9b8b32",
+    "enrolledStudents": [],
+    "courseRatings": [],
+    "createdAt": "2025-03-06T10:00:00.000Z",
+    "updatedAt": "2025-03-06T10:00:00.000Z",
+    "__v": 0,
+    "courseThumbnail": "https://img.youtube.com/vi/BwuLxPH8IDs/maxresdefault.jpg"
+},
+
+// 17th course
+{
+    "_id": "605c72efb3f1c2b1f8e4e1b6",
+    "courseTitle": "Data Structures & Algorithms",
+    "courseDescription": "<h2>Learn DSA</h2><p>Master arrays, linked lists, stacks, queues, trees, sorting, and searching algorithms.</p>",
+    "coursePrice": 89.99,
+    "isPublished": true,
+    "discount": 10,
+    "courseContent": [
+        {
+            "chapterId": "chapter1",
+            "chapterOrder": 1,
+            "chapterTitle": "Fundamentals of DSA",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture1",
+                    "lectureTitle": "Arrays and Linked Lists",
+                    "lectureDuration": 18,
+                    "lectureUrl": "https://youtu.be/sVxBVvlnJsM",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture2",
+                    "lectureTitle": "Stacks and Queues",
+                    "lectureDuration": 20,
+                    "lectureUrl": "https://youtu.be/0o8B2fE1o8s",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        },
+        {
+            "chapterId": "chapter2",
+            "chapterOrder": 2,
+            "chapterTitle": "Sorting & Searching",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture3",
+                    "lectureTitle": "Sorting Algorithms",
+                    "lectureDuration": 22,
+                    "lectureUrl": "https://youtu.be/kPRA0W1kECg",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture4",
+                    "lectureTitle": "Searching Algorithms",
+                    "lectureDuration": 18,
+                    "lectureUrl": "https://youtu.be/T9p0r5F1T6Q",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        }
+    ],
+    "educator": "675ac1512100b91a6d9b8b33",
+    "enrolledStudents": [],
+    "courseRatings": [],
+    "createdAt": "2025-03-07T10:00:00.000Z",
+    "updatedAt": "2025-03-07T10:00:00.000Z",
+    "__v": 0,
+    "courseThumbnail": "https://img.youtube.com/vi/sVxBVvlnJsM/maxresdefault.jpg"
+}
+
 ]
